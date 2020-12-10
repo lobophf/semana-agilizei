@@ -1,3 +1,5 @@
-cypress/videos/*
+cypress/videos/
 node_modules/
 index.json
+mochawesome-report/
+cypress/fixtures/pedido.json
