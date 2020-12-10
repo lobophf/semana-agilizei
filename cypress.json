@@ -4,8 +4,8 @@
 	"experimentalSourceRewriting": true,
 	"viewportWidth": 1536,
 	"viewportWeight": 960,
-	"resporter": "cypress-multi-reporters",
-	"reporter-options": {
+	"reporter": "cypress-multi-reporters",
+	"reporterOptions": {
 		"configFile": "reporter-config.json" 
 	}
 }
