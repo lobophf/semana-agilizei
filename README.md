@@ -8,7 +8,7 @@ Para tal, a ferramenta `Cypress` foi utilizada para testar localmente todas as e
 
 ## :hammer_and_wrench: Setup
 
-Este projeto requer `Node.js` e o pacote `npm` que ja vem incluído. Se você não o tem, você pode obtê-lo através dessa página. Tudo deve funcionar corretamente para o Node.js v14.15.1. Além disso, esse repositório contem o arquivo `package.json` que contém todas as dependências necessárias. Para instalar os modulos npm, entre a pasta raiz e execute o comando:
+Este projeto requer `Node.js` e o pacote `npm` que ja vem incluído. Se você não o tem, você pode obtê-lo através dessa página. Tudo deve funcionar corretamente para o **Node.js v14.15.1**. Além disso, esse repositório contem o arquivo `package.json` que contém todas as dependências necessárias. Para instalar os modulos npm, entre a pasta raiz e execute o comando:
 
 `npm install`
 
