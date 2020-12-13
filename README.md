@@ -12,7 +12,7 @@ Este projeto requer `Node.js` e o pacote `npm` que ja vem incluído. Se você n�
 
 `npm install`
 
-Após, para rodar os testes, digitar no terminal:
+Após, para rodar os testes, digite no terminal:
 
 `npm run cy:run`
 
