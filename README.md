@@ -10,15 +10,21 @@ Para tal, a ferramenta **Cypress** foi utilizada gerar testes e executá-los loc
 
 Este projeto requer **Node.js** e o pacote **npm** que ja vem incluído. Se você não o tem, você pode obtê-lo através [desta página](https://nodejs.org/en/download/). Tudo deve funcionar corretamente para o **Node.js v14.15.1**. Além disso, esse repositório possui o arquivo `package.json` que contém todas as dependências necessárias. Para instalar os modulos npm, entre a pasta raiz e execute o comando:
 
-`npm install`
+```sh
+npm install
+```
 
 Após, para rodar os testes, digite no terminal:
 
-`npm run cy:run`
+```sh
+npm run cy:run
+```
 
 Para criar os relatórios, utilize os seguintes comandos:
 
-`npm run report:merge && npm run report:mocha`
+```sh
+npm run report:merge && npm run report:mocha
+```
 
 Ao final do processo, é apresentado o link do relatório. Para acessá-lo, abra o arquivo através do browser.
 Para ver o mesmo relatório produzido pelo **Github Actions** clique [aqui](https://lobophf.github.io/semana-agilizei/).
