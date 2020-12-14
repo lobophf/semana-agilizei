@@ -3,7 +3,7 @@
 
 ## :question: Sobre
 
-A **Semana Agilizei 2.0** é um evento online e gratuito, organizado pela equipe da [Agilizei](https://agilizei.com/), na qual o [@samlucax](https://github.com/samlucax) nos ensinou a como automatizar processos de compras em uma [loja virtual fictícia](http://automationpractice.com/index.php). 
+A **Semana Agilizei 2.0** é um evento online e gratuito, organizado pela equipe da [Agilizei](https://agilizei.com/), na qual o [@samlucax](https://github.com/samlucax) nos ensina a como automatizar processos de compras em uma [loja virtual fictícia](http://automationpractice.com/index.php). 
 Para tal, a ferramenta **Cypress** foi utilizada gerar testes e executá-los localmente, bem como produzir seus relatórios. O mesmo foi feito usando o **Github Actions**, com a publicação dos *logs* no **Github Pages**. 
 
 ## :hammer_and_wrench: Setup
