@@ -11,19 +11,19 @@ Para tal, a ferramenta **Cypress** foi utilizada gerar testes e executá-los loc
 Este projeto requer **Node.js** e o pacote **npm** que ja vem incluído. Se você não o tem, você pode obtê-lo através [desta página](https://nodejs.org/en/download/). Tudo deve funcionar corretamente para o **Node.js v14.15.1**. Além disso, esse repositório possui o arquivo `package.json` que contém todas as dependências necessárias. Para instalar os modulos npm, entre a pasta raiz e execute o comando:
 
 ```sh
-npm install
+$ npm install
 ```
 
 Após, para rodar os testes, digite no terminal:
 
 ```sh
-npm run cy:run
+$ npm run cy:run
 ```
 
 Para criar os relatórios, utilize os seguintes comandos:
 
 ```sh
-npm run report:merge && npm run report:mocha
+$ npm run report:merge && npm run report:mocha
 ```
 
 Ao final do processo, é apresentado o link do relatório. Para acessá-lo, abra o arquivo através do browser.
