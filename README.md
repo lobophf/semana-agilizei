@@ -14,7 +14,7 @@ Este projeto requer **Node.js** e o pacote **npm** que ja vem incluído. Se voc�
 $ npm install
 ```
 
-Após, para rodar os testes, digite no terminal:
+Para rodar os testes, digite no terminal:
 
 ```sh
 $ npm run cy:run
