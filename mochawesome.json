@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-12-13T04:09:25.087Z",
-    "end": "2020-12-13T04:09:39.796Z",
-    "duration": 14709,
+    "start": "2020-12-14T13:00:55.478Z",
+    "end": "2020-12-14T13:01:12.922Z",
+    "duration": 17444,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "333b72cb-2470-46f3-b3bb-d4d26b6ffa7b",
+      "uuid": "e371b784-bf9f-4f4c-9a23-d8c31f762769",
       "title": "",
       "fullFile": "cypress/integration/compras.spec.js",
       "file": "cypress/integration/compras.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6c833c20-d3bf-43e6-8ea3-947cbbe85195",
+          "uuid": "5ed5f9cd-cc19-4750-82f5-5fab79638ba4",
           "title": "Compra",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Efetuar uma compra de produto",
               "fullTitle": "Compra Efetuar uma compra de produto",
               "timedOut": null,
-              "duration": 14646,
+              "duration": 17363,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.backgroundLogin();\ncy.visit('/');\nvar nomeProduto = 'Faded Short Sleeve T-shirts';\ncy.contains(nomeProduto).trigger('mouseover');\ncy.contains(nomeProduto).parent().siblings('div.button-container').children('a').first().click();\ncy.get(\".icon-ok\").parent().should('contain.text', 'Product successfully added to your shopping cart');\ncy.get('span#layer_cart_product_title').should('contain.text', nomeProduto);\ncy.get(\".button-container a[href$='controller=order']\").click();\ncy.get(\".cart_navigation a[href$='controller=order&step=1']\").click(); //\t\tcy.get('#email').type('semana-agilizei@mail.com');\n//\t\tcy.get('#passwd').type('12345');\n//\t\tcy.get('button#SubmitLogin').click();\ncy.get('[type=checkbox]#addressesAreEquals').should('have.attr', 'checked', 'checked');\ncy.get('button[name=processAddress]').click();\ncy.get('[type=checkbox]#cgv').check();\ncy.get('button[name=processCarrier]').click();\ncy.get('.bankwire').click();\ncy.get('.cart_navigation button[type=submit]').find('span').contains('I confirm my order').click();\ncy.get('.cheque-indent strong').should('contain.text', 'Your order on My Store is complete.');\ncy.get('div.box').invoke('text').then(function (text) {\n  cy.writeFile('cypress/fixtures/pedido.json', {\n    id: \"\".concat(text.match(/[A-Z][A-Z]+/g)[1])\n  });\n});\ncy.get(\".cart_navigation a[href$='history']\").click();\ncy.readFile('cypress/fixtures/pedido.json').then(function (pedido) {\n  cy.get('tr.first_item .history_link a').should('contain.text', pedido.id);\n});",
               "err": {},
-              "uuid": "83cb0f9e-f3a6-445f-bd2f-df41a438c05b",
-              "parentUUID": "6c833c20-d3bf-43e6-8ea3-947cbbe85195",
+              "uuid": "e10d2288-319b-42b7-bdda-6aa1863eec48",
+              "parentUUID": "5ed5f9cd-cc19-4750-82f5-5fab79638ba4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "83cb0f9e-f3a6-445f-bd2f-df41a438c05b"
+            "e10d2288-319b-42b7-bdda-6aa1863eec48"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14646,
+          "duration": 17363,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
